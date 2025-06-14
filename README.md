@@ -19,7 +19,7 @@ Scanner avançado para detectar diretórios `.git` expostos em sites WordPress e
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/git-exposure-scanner.git
-cd git-exposure-scanner
+cd git-exposure-scanner```
 
 Instale as dependências:
 pip install -r requirements.txt

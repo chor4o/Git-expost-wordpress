@@ -28,26 +28,20 @@ pip install -r requirements.txt
 Verificar um único domínio:
 
 python git_exposure_scanner.py -u exemplo.com
-Verificar múltiplos domínios (arquivo):
+Verificar múltiplos domínios (arquivo): python git_exposure_scanner.py -f lista_dominios.txt -t 10
 
-python git_exposure_scanner.py -f lista_dominios.txt -t 10
 Opções:
-text
 -u, --url        URL única para verificar
 -f, --file       Arquivo com lista de domínios (um por linha)
 -t, --threads    Número de threads paralelas (padrão: 5)
+
 📝 Exemplo de Saída
-text
+
 [•] Verificando: exemplo.com
 [→] Acessando: https://exemplo.com
 [+] Tema detectado: astra
 [✔] VULNERÁVEL: https://exemplo.com/wp-content/themes/astra/.git/config
 🛡 Casos de Uso Ético
-Testes de penetração autorizados
-
-Bug bounty
-
-Auditorias de segurança web
 
 📄 Licença
 MIT License - Consulte o arquivo LICENSE para detalhes.

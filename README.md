@@ -9,6 +9,7 @@ Scanner avançado para detectar diretórios `.git` expostos em sites WordPress e
 
 - ✅ Detecção automática de temas WordPress
 - 🔍 Varredura agressiva por `.git` exposto
+- 🔍 Fuzzing de arquivo exposto
 - 🌐 Suporte a wildcards (ex: `*.dominio.com`)
 - 🔄 Fallback automático HTTP/HTTPS
 - 🚀 Multi-threading para varredura rápida
@@ -34,6 +35,7 @@ Opções:
 -u, --url        URL única para verificar
 -f, --file       Arquivo com lista de domínios (um por linha)
 -t, --threads    Número de threads paralelas (padrão: 5)
+-p,              Wordlists para fuzzing de arquivos conhecidos 
 
 📝 Exemplo de Saída
 
